@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prashant Tak">
+    <meta name="description" content="Contact us forum of NesCafe">
+
+    <title> Contact Us - NesCafe </title>
+    <link rel="icon" href="/NesCafe/images/logo.jpg" type="jpg">
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us - NesCafe</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="/Projects/#about">About Us</a>
+          </li>
+          <li>
+            <a href="/Projects/#menu">Menu</a>
+          </li>
+          <li>
+            <a href="timings.html">Our Timings</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr>
+
+    <main>
+      <section>
+        <form action="/submit" method="POST">
+          <h1>Our Contact Form</h1>
+
+          <fieldset>
+            <legend>
+              Send Us a Message
+            </legend>
+          
+            <label for="user_name">Name:</label>
+            <input type="text" id="user_name" placeholder="Your Name" required>
+
+            <br> <br>
+            <label for="user_email">Email:</label>
+            <input type="email" id="user_email" placeholder="Your Email" required>
+
+            <br> <br>
+            <label for="reason">Contact Reason</label>
+            <select name="reason" id="reason">
+              <option value="" selected disabled>Select your reason</option>
+              <option value="inguire">Inquiry</option>
+              <option value="feedback">Feedback</option>
+              <option value="complaint">Complaint</option>
+            </select>
+
+            <br> <br>
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" rows="5" cols="100" maxlength="500" placeholder="Type your message here" required></textarea>
+
+            <br> <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset Form</button>
+          </fieldset>
+        </form>
+      </section>
+
+      <hr>
+
+      <section>
+        <h2>Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27983.93063500804!2d77.07857608795166!3d28.74967583403065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0127a1079a25%3A0x1515c2e05ac45a8d!2sNescaf%C3%A9%20Coffee%20Shop!5e0!3m2!1sen!2sin!4v1781461477974!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+      <p><a href="#">Back to Top</a></p>
+    </main>
+
+    <hr>
+
+    <footer>
+      <p>Made with ❤️‍🩹 from India.</p>
+      <p>Copyright &copy; 2026 NesCafe. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
